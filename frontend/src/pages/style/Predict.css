@@ -1,0 +1,69 @@
+.predict_container {
+    border: 1px solid #dedede;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.predict_body {
+    width: 40%;
+    padding: 0 40px;
+}
+
+.predict_body:first-of-type {
+    width: 60%;
+    border-right: 1px solid #dedede;
+}
+
+.predict_form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.predict_content {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.predict_input {
+    width: inherit;
+    height: 35px;
+    border: 1px solid #dedede;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.predict_type {
+    height: 35px;
+}
+
+.predict_choose {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.predict_result {
+    font-size: 18px;
+    color: red;
+    position: absolute;
+    left: 40px;
+    bottom: 20px
+}
+
+.predict_send {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(53, 213, 245);
+    position: absolute;
+    right: 40px;
+    bottom: 20px
+}
+
+.predict_send:hover {
+    color: #000000;
+    background-color: #dedede;
+}

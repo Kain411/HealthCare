@@ -1,0 +1,134 @@
+services:
+  patient_service:
+    build: ./services/patient_service
+    container_name: patient_service
+    ports:
+      - "5001:5001"
+    environment:
+      - UserDB=mongodb://host.docker.internal:27017/db_user
+    networks:
+      - app-network
+
+  doctor_service:
+    build: ./services/doctor_service
+    container_name: doctor_service
+    ports:
+      - "5002:5002"
+    environment:
+      - UserDB=mongodb://host.docker.internal:27017/db_user
+    networks:
+      - app-network
+
+  nurse_service:
+    build: ./services/nurse_service
+    container_name: nurse_service
+    ports:
+      - "5003:5003"
+    environment:
+      - UserDB=mongodb://host.docker.internal:27017/db_user
+    networks:
+      - app-network
+
+  appointment_service:
+    build: ./services/appointment_service
+    container_name: appointment_service
+    ports:
+      - "5006:5006"
+    environment:
+      - AppointmentDB=mongodb://host.docker.internal:27017/db_appointment
+    env_file:
+      - .env
+    depends_on:
+      - patient_service
+      - doctor_service
+    networks:
+      - app-network
+
+  medical_record_service:
+    build: ./services/medical_record_service
+    container_name: medical_record_service
+    ports:
+      - "5007:5007"
+    environment:
+      - MedicalRecordDB=mongodb://host.docker.internal:27017/db_medical_record
+    env_file:
+      - .env
+    depends_on:
+      - patient_service
+      - doctor_service
+      - nurse_service
+    networks:
+      - app-network
+
+  prescription_service:
+    build: ./services/prescription_service
+    container_name: prescription_service
+    ports:
+      - "5008:5008"
+    environment:
+      - PrescriptionDB=mongodb://host.docker.internal:27017/db_prescription
+    env_file:
+      - .env
+    depends_on:
+      - patient_service
+      - doctor_service
+      - medicine_service
+    networks:
+      - app-network
+
+  medicine_service:
+    build: ./services/medicine_service
+    container_name: medicine_service
+    ports:
+      - "5009:5009"
+    environment:
+      - MedicineDB=mongodb://host.docker.internal:27017/db_medicine
+    networks:
+      - app-network
+
+  predict_service:
+    build: ./services/predict_service
+    container_name: predict_service
+    ports:
+      - "5011:5011"
+    networks:
+      - app-network
+
+  gateway_container:
+    build: ./gateway
+    container_name: gateway_container
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    depends_on:
+      - patient_service
+      - doctor_service
+      - nurse_service
+      - appointment_service
+      - medical_record_service
+      - prescription_service
+      - medicine_service
+      - predict_service
+    networks:
+      - app-network
+
+  # frontend_container:
+  #   build:
+  #     context: ./frontend 
+  #   container_name: frontend_container
+  #   ports:
+  #     - "3000:3000"
+  #   volumes:
+  #     - ./frontend:/app
+  #     - /app/node_modules
+  #   stdin_open: true
+  #   tty: true
+  #   environment:
+  #     - CHOKIDAR_USEPOLLING=true
+  #   networks:
+  #     - app-network
+  
+networks:
+  app-network:
+    driver: bridge

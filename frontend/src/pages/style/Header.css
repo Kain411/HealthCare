@@ -1,0 +1,57 @@
+.header_container {
+    width: 100vw;
+    color: #ffffff;
+}
+
+.header_info {
+    width: 100vw;
+    height: 70px;
+    padding: 0 100px;
+    background-color: rgb(32, 205, 240);
+}
+
+.header_app {
+    width: inherit;
+}
+
+.header_title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.header_search {
+    width: 50%;
+    height: 48%;
+}
+
+.header_username {
+    font-size: 20px;
+}
+
+.header_avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.header_button {
+    flex: 1;
+    height: 60px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(53, 213, 245);
+}
+
+.header_button:hover {
+    color: #000000;
+    font-weight: 500;
+    background-color: #d9d9d9;
+}
+
+.header_body {
+    width: 100vw;
+    padding: 50px 150px 0 150px;
+}

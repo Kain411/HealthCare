@@ -1,0 +1,501 @@
+ID,Tuổi,Giới tính,Sốt,Đau ngực,Khó thở,Ho,Chóng mặt,Huyết áp,Đau đầu,Nhịp tim,Bệnh
+1,45,Nam,1,1,1,0,0,Cao,1,Cao,"Phổi, Tiêu chảy"
+2,15,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tiêu chảy
+3,60,Nam,1,0,1,1,0,Cao,1,Cao,Tim
+4,12,Nữ,0,0,0,1,0,Trung bình,0,Thấp,Tiêu chảy
+5,15,Nam,1,1,1,0,0,Trung bình,0,Trung bình,"Phổi, Tiêu chảy"
+6,12,Nữ,1,0,0,0,1,Trung bình,0,Thấp,Tiêu chảy
+7,10,Nữ,1,1,1,1,1,Cao,1,Cao,"Tim, Phổi"
+8,26,Nữ,1,1,1,1,0,Cao,1,Thấp,"Tim, Tiêu chảy"
+9,55,Nam,0,0,1,0,0,Cao,1,Thấp,Tim
+10,8,Nữ,1,0,1,0,1,Trung bình,0,Trung bình,"Tim, Phổi"
+11,9,Nam,1,1,1,1,0,Trung bình,1,Thấp,Phổi
+12,17,Nữ,0,0,0,1,0,Trung bình,0,Cao,Tiêu chảy
+13,47,Nam,1,1,1,1,1,Cao,0,Trung bình,"Phổi, Tiêu chảy"
+14,29,Nữ,0,0,0,0,1,Thấp,1,Trung bình,Tim
+15,58,Nam,1,1,1,1,0,Cao,1,Trung bình,Phổi
+16,63,Nữ,1,0,1,1,1,Thấp,1,Trung bình,Khác
+17,51,Nam,0,1,0,0,0,Thấp,1,Thấp,Khác
+18,18,Nữ,0,0,1,0,1,Thấp,0,Cao,Khác
+19,64,Nam,1,1,1,1,0,Cao,1,Trung bình,Phổi
+20,31,Nữ,0,1,0,1,0,Thấp,0,Cao,Tim
+21,36,Nam,1,0,1,0,1,Thấp,0,Trung bình,Phổi
+22,29,Nữ,1,0,1,0,1,Thấp,0,Cao,Tim
+23,53,Nam,0,1,1,1,0,Thấp,1,Thấp,Phổi
+24,13,Nữ,1,1,1,1,0,Cao,1,Cao,Tiêu chảy
+25,54,Nam,0,1,1,0,0,Cao,1,Trung bình,Tim
+26,45,Nam,1,0,1,1,1,Cao,1,Trung bình,Phổi
+27,7,Nữ,0,0,0,0,1,Thấp,1,Cao,Khác
+28,60,Nam,1,1,1,1,0,Cao,1,Thấp,Phổi
+29,16,Nữ,0,0,0,1,0,Thấp,0,Cao,Khác
+30,35,Nam,1,1,1,1,0,Thấp,0,Trung bình,"Phổi, Tiêu chảy"
+31,28,Nữ,1,0,0,0,1,Thấp,0,Cao,Tim
+32,9,Nam,0,0,1,1,0,Cao,1,Cao,Phổi
+33,70,Nữ,1,1,1,1,0,Thấp,1,Thấp,"Tim, Phổi, Tiêu chảy"
+34,55,Nam,0,1,1,0,0,Cao,1,Trung bình,Tim
+35,33,Nữ,1,0,1,0,1,Thấp,0,Cao,Tim
+36,58,Nam,1,1,0,0,1,Thấp,1,Thấp,Khác
+37,39,Nữ,0,0,0,1,0,Thấp,0,Thấp,Tim
+38,47,Nam,1,0,1,1,1,Cao,1,Trung bình,Phổi
+39,29,Nữ,0,0,0,0,1,Thấp,0,Thấp,Tim
+40,58,Nam,1,1,0,1,0,Thấp,1,Thấp,Phổi
+41,10,Nữ,1,0,1,1,0,Cao,1,Cao,Tiêu chảy
+42,7,Nam,0,1,1,0,0,Cao,1,Thấp,Phổi
+43,24,Nữ,0,0,0,1,1,Thấp,0,Thấp,Tim
+44,64,Nam,1,1,1,1,0,Thấp,1,Trung bình,Phổi
+45,31,Nữ,0,0,0,1,0,Thấp,0,Thấp,Tim
+46,36,Nam,1,0,1,1,1,Thấp,0,Thấp,Phổi
+47,29,Nữ,1,0,0,0,1,Thấp,1,Thấp,"Tim, Tiêu chảy"
+48,7,Nam,0,1,1,1,0,Cao,1,Thấp,Phổi
+49,73,Nữ,1,0,1,1,0,Cao,1,Thấp,"Tim, Phổi, Tiêu chảy"
+50,54,Nam,0,0,0,0,0,Thấp,0,Thấp,Khác
+51,45,Nam,1,0,1,0,1,Cao,1,Thấp,Phổi
+52,11,Nữ,0,1,0,1,1,Thấp,0,Trung bình,Khác
+53,5,Nam,1,0,1,1,0,Cao,1,Trung bình,Tiêu chảy
+54,30,Nữ,0,0,0,1,0,Cao,0,Thấp,Tim
+55,35,Nam,1,0,1,0,1,Thấp,0,Thấp,Phổi
+56,28,Nữ,1,0,0,1,1,Thấp,0,Thấp,"Tim, Tiêu chảy"
+57,50,Nam,0,0,0,1,0,Cao,1,Thấp,Khác
+58,5,Nữ,1,0,1,0,0,Cao,1,Thấp,Tiêu chảy
+59,55,Nam,0,1,1,0,0,Cao,1,Thấp,Tim
+60,33,Nữ,1,0,0,1,1,Thấp,0,Thấp,"Tim, Tiêu chảy"
+61,48,Nam,1,0,1,1,0,Thấp,1,Trung bình,Phổi
+62,39,Nữ,0,0,0,1,0,Thấp,1,Thấp,Tim
+63,47,Nam,1,0,0,0,1,Cao,1,Thấp,"Tim, Phổi"
+64,29,Nữ,0,0,0,0,1,Thấp,0,Thấp,Tim
+65,58,Nam,1,1,1,1,0,Thấp,0,Thấp,Phổi
+66,10,Nữ,1,1,1,1,0,Thấp,1,Thấp,Khác
+67,8,Nam,0,1,1,0,0,Cao,1,Thấp,Phổi
+68,24,Nữ,0,0,0,0,1,Thấp,1,Trung bình,Tim
+69,64,Nam,1,1,0,1,0,Cao,0,Thấp,Tiêu chảy
+70,31,Nữ,0,0,0,1,0,Thấp,0,Thấp,Tim
+71,36,Nam,1,0,1,0,1,Thấp,0,Thấp,Phổi
+72,29,Nữ,1,0,0,0,1,Thấp,0,Thấp,"Tim, Tiêu chảy"
+73,53,Nam,0,0,1,1,0,Cao,1,Thấp,Tim
+74,7,Nữ,1,0,0,1,0,Cao,1,Thấp,Tim
+75,54,Nam,0,0,1,0,0,Thấp,1,Thấp,Tim
+76,45,Nam,1,0,0,0,1,Cao,1,Thấp,"Tim, Phổi"
+77,22,Nữ,0,0,0,1,1,Thấp,0,Thấp,Tim
+78,60,Nam,1,0,1,1,0,Thấp,1,Thấp,Phổi
+79,30,Nữ,0,0,0,1,0,Thấp,0,Thấp,Tim
+80,35,Nam,1,1,1,1,1,Thấp,0,Thấp,"Phổi, Tiêu chảy"
+81,28,Nữ,1,0,0,0,1,Thấp,0,Thấp,"Tim, Tiêu chảy"
+82,50,Nam,0,0,1,1,0,Cao,1,Thấp,Tim
+83,16,Nữ,0,0,1,1,0,Cao,1,Trung bình,Tiêu chảy
+84,6,Nam,0,0,1,0,0,Cao,1,Trung bình,Phổi
+85,33,Nữ,1,0,0,1,1,Thấp,0,Thấp,"Tim, Tiêu chảy"
+86,16,Nữ,1,0,1,1,1,Cao,1,Trung bình,"Tim, Phổi"
+87,39,Nữ,0,0,0,1,0,Trung bình,0,Thấp,Tim
+88,47,Nam,1,0,1,0,0,Cao,1,Cao,Phổi
+89,29,Nữ,0,0,1,0,1,Trung bình,0,Thấp,Tim
+90,58,Nam,1,0,0,1,0,Cao,0,Cao,Tiêu chảy
+91,63,Nữ,1,1,0,1,0,Thấp,1,Cao,"Tim, Phổi, Tiêu chảy"
+92,51,Nam,0,1,1,0,0,Cao,1,Cao,Tim
+93,9,Nữ,1,1,1,0,1,Cao,1,Trung bình,Tim
+94,13,Nam,0,1,0,1,0,Cao,0,Trung bình,Khác
+95,31,Nữ,0,0,0,1,0,Trung bình,1,Thấp,Tim
+96,36,Nam,1,0,1,1,1,Thấp,0,Trung bình,Phổi
+97,29,Nữ,1,0,0,1,1,Trung bình,0,Cao,Tim
+98,53,Nam,0,1,0,1,0,Cao,1,Trung bình,Khác
+99,73,Nữ,1,1,1,1,1,Thấp,0,Trung bình,Khác
+100,12,Nam,0,0,1,0,0,Cao,1,Trung bình,Phổi
+101,45,Nam,0,1,0,1,1,Cao,1,Trung bình,"Tim, Phổi"
+102,22,Nữ,0,1,0,0,1,Trung bình,0,Cao,Tim
+103,23,Nam,1,0,1,1,1,Cao,1,Trung bình,Phổi
+104,30,Nữ,0,0,0,1,0,Trung bình,0,Cao,Tim
+105,35,Nam,1,1,0,0,1,Cao,0,Trung bình,"Tim, Phổi"
+106,28,Nữ,1,0,0,1,1,Trung bình,0,Cao,Tim
+107,50,Nam,0,1,1,1,0,Cao,1,Trung bình,Phổi
+108,70,Nữ,1,1,1,1,0,Trung bình,1,Trung bình,"Tim, Phổi, Tiêu chảy"
+109,55,Nam,0,1,0,0,0,Thấp,1,Trung bình,Khác
+110,33,Nữ,1,0,0,0,1,Trung bình,0,Cao,Tim
+111,48,Nam,1,1,0,1,1,Cao,1,Trung bình,"Tim, Phổi"
+112,10,Nữ,0,0,0,1,0,Trung bình,0,Trung bình,Tiêu chảy
+113,47,Nam,1,0,1,1,1,Cao,1,Trung bình,Phổi
+114,29,Nữ,0,0,1,0,1,Thấp,1,Trung bình,Tim
+115,5,Nam,1,1,1,1,0,Cao,1,Trung bình,Tiêu chảy
+116,63,Nữ,1,1,0,1,0,Cao,1,Trung bình,Tiêu chảy
+117,51,Nam,0,1,1,0,0,Cao,1,Trung bình,Tim
+118,24,Nữ,0,0,0,1,1,Trung bình,0,Trung bình,Tim
+119,64,Nam,1,1,1,1,0,Trung bình,1,Trung bình,Phổi
+120,31,Nữ,0,1,0,1,0,Trung bình,0,Cao,Tim
+121,36,Nam,0,1,0,1,1,Cao,0,Trung bình,"Tim, Phổi"
+122,29,Nữ,1,0,0,0,1,Trung bình,0,Trung bình,Tim
+123,53,Nam,0,1,1,1,0,Cao,1,Trung bình,Phổi
+124,9,Nữ,1,1,1,0,0,Cao,0,Cao,Tiêu chảy
+125,54,Nam,0,1,1,0,0,Cao,1,Trung bình,Tim
+126,45,Nam,1,1,0,1,1,Cao,1,Trung bình,"Tim, Phổi"
+127,8,Nữ,0,0,0,0,1,Trung bình,0,Cao,Tiêu chảy
+128,60,Nam,1,1,0,1,0,Cao,1,Cao,Tiêu chảy
+129,30,Nữ,0,1,0,1,0,Trung bình,0,Cao,Tim
+130,35,Nam,1,1,1,1,1,Cao,0,Cao,"Phổi, Tiêu chảy"
+131,28,Nữ,1,0,0,1,1,Trung bình,0,Trung bình,Tim
+132,50,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+133,70,Nữ,1,1,1,1,0,Trung bình,0,Cao,"Tim, Phổi, Tiêu chảy"
+134,8,Nam,0,1,0,0,0,Cao,1,Cao,Tim
+135,33,Nữ,1,0,1,0,1,Trung bình,1,Trung bình,Tim
+136,48,Nam,1,0,0,1,1,Trung bình,1,Cao,"Tim, Phổi"
+137,39,Nữ,0,0,0,1,0,Trung bình,1,Trung bình,Khác
+138,47,Nam,1,0,1,1,1,Cao,1,Cao,Phổi
+139,29,Nữ,0,0,1,0,1,Trung bình,0,Trung bình,Tim
+140,58,Nam,1,0,0,1,0,Cao,1,Cao,Tiêu chảy
+141,63,Nữ,1,0,1,1,0,Cao,0,Thấp,"Tim, Phổi, Tiêu chảy"
+142,51,Nam,0,0,1,0,0,Cao,1,Cao,Tim
+143,24,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tim
+144,4,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+145,31,Nữ,0,0,1,1,0,Thấp,0,Trung bình,Khác
+146,12,Nam,1,0,0,0,0,Trung bình,0,Cao,Tiêu chảy
+147,29,Nữ,1,1,0,0,1,Thấp,0,Trung bình,"Tim, Phổi"
+148,53,Nam,0,1,1,1,0,Cao,1,Trung bình,Phổi
+149,73,Nữ,1,0,1,1,0,Cao,1,Trung bình,"Tim, Phổi, Tiêu chảy"
+150,54,Nam,0,1,1,0,0,Cao,1,Trung bình,Tim
+151,45,Nam,1,1,0,1,1,Cao,1,Trung bình,"Tim, Phổi"
+152,22,Nữ,0,0,1,0,1,Thấp,1,Trung bình,Tim
+153,9,Nam,1,1,1,1,0,Cao,1,Cao,Tiêu chảy
+154,9,Nữ,0,0,0,1,0,Trung bình,0,Thấp,Tiêu chảy
+155,35,Nam,1,1,1,1,1,Cao,0,Trung bình,"Phổi, Tiêu chảy"
+156,28,Nữ,1,0,1,1,1,Thấp,0,Trung bình,Khác
+157,50,Nam,0,0,0,1,0,Cao,1,Trung bình,Khác
+158,70,Nữ,1,1,1,1,0,Cao,0,Trung bình,"Tim, Phổi, Tiêu chảy"
+159,2,Nam,0,0,1,0,0,Cao,1,Cao,Phổi
+160,33,Nữ,1,0,1,0,1,Thấp,0,Trung bình,Tim
+161,48,Nam,1,1,1,1,1,Cao,1,Trung bình,"Phổi, Tiêu chảy"
+162,39,Nữ,0,0,0,1,0,Cao,0,Trung bình,Khác
+163,47,Nam,1,0,0,1,1,Cao,1,Trung bình,"Tim, Phổi"
+164,29,Nữ,0,0,1,0,1,Thấp,0,Trung bình,Tim
+165,58,Nam,1,1,1,1,0,Cao,1,Trung bình,Phổi
+166,9,Nữ,1,1,1,0,1,Cao,0,Cao,Tim
+167,9,Nam,0,1,0,0,0,Cao,1,Trung bình,Khác
+168,24,Nữ,0,0,0,0,1,Trung bình,1,Thấp,Tim
+169,64,Nam,1,1,1,1,1,Cao,1,Trung bình,Phổi
+170,31,Nữ,0,1,0,1,0,Cao,0,Trung bình,"Tim, Phổi"
+171,7,Nam,1,0,1,1,0,Trung bình,0,Cao,Tiêu chảy
+172,29,Nữ,1,0,1,0,1,Thấp,0,Trung bình,Tim
+173,53,Nam,0,1,0,1,0,Cao,1,Trung bình,Khác
+174,73,Nữ,1,1,1,1,0,Cao,0,Trung bình,"Tim, Phổi, Tiêu chảy"
+175,54,Nam,0,1,1,0,0,Cao,1,Trung bình,Tim
+176,45,Nam,1,0,1,1,1,Cao,1,Trung bình,Phổi
+177,22,Nữ,0,0,0,0,1,Trung bình,1,Thấp,Tim
+178,8,Nam,1,0,1,1,0,Cao,1,Trung bình,Tiêu chảy
+179,30,Nữ,0,1,0,1,0,Cao,0,Trung bình,"Tim, Phổi"
+180,35,Nam,1,0,1,1,1,Cao,0,Trung bình,Phổi
+181,28,Nữ,1,0,0,0,1,Thấp,0,Trung bình,Tim
+182,50,Nam,0,0,1,1,0,Cao,1,Trung bình,Tim
+183,14,Nữ,1,1,1,1,1,Cao,0,Trung bình,"Tim, Phổi"
+184,55,Nam,0,1,0,0,0,Cao,1,Trung bình,Khác
+185,33,Nữ,1,0,0,0,1,Trung bình,1,Thấp,"Tim, Tiêu chảy"
+186,63,Nam,1,1,0,0,1,Thấp,1,Trung bình,Khác
+187,39,Nữ,0,0,0,1,0,Thấp,0,Trung bình,Khác
+188,47,Nam,1,1,1,1,1,Cao,1,Trung bình,"Phổi, Tiêu chảy"
+189,29,Nữ,0,0,1,0,1,Thấp,0,Trung bình,Tim
+190,58,Nam,1,0,1,1,0,Cao,1,Trung bình,Tim
+191,63,Nữ,1,1,0,1,0,Cao,0,Trung bình,Tiêu chảy
+192,51,Nam,0,1,1,0,0,Cao,1,Trung bình,Tim
+193,24,Nữ,0,0,0,0,1,Thấp,0,Trung bình,Tim
+194,64,Nam,1,0,1,1,0,Trung bình,1,Trung bình,Phổi
+195,31,Nữ,0,0,0,1,0,Thấp,0,Trung bình,Khác
+196,36,Nam,1,0,1,1,1,Cao,0,Trung bình,Phổi
+197,29,Nữ,1,0,0,0,1,Thấp,0,Trung bình,Tim
+198,53,Nam,0,1,1,1,0,Cao,1,Trung bình,Phổi
+199,73,Nữ,1,0,0,1,0,Cao,1,Trung bình,Tiêu chảy
+200,54,Nam,0,0,1,0,0,Cao,1,Trung bình,Tim
+201,45,Nam,1,0,1,1,1,Thấp,1,Trung bình,Phổi
+202,18,Nữ,0,0,0,0,1,Trung bình,1,Trung bình,Tiêu chảy
+203,28,Nam,1,0,0,1,1,Cao,1,Trung bình,"Tim, Phổi"
+204,30,Nữ,0,1,0,1,0,Cao,0,Trung bình,"Tim, Phổi"
+205,35,Nam,1,0,1,1,1,Cao,0,Trung bình,Phổi
+206,28,Nữ,1,0,0,0,1,Thấp,0,Trung bình,Tim
+207,50,Nam,0,0,1,1,0,Cao,1,Trung bình,Tim
+208,70,Nữ,1,1,1,1,0,Trung bình,0,Trung bình,"Tim, Phổi, Tiêu chảy"
+209,55,Nam,0,1,0,0,0,Cao,1,Trung bình,Khác
+210,33,Nữ,1,1,0,0,1,Thấp,0,Trung bình,"Tim, Phổi"
+211,48,Nam,1,1,1,1,1,Cao,1,Trung bình,"Phổi, Tiêu chảy"
+212,39,Nữ,0,0,0,1,0,Trung bình,0,Trung bình,Khác
+213,47,Nam,1,0,1,0,1,Cao,1,Trung bình,Phổi
+214,29,Nữ,0,0,0,0,1,Thấp,1,Trung bình,Tim
+215,58,Nam,1,1,0,1,0,Cao,1,Trung bình,Tiêu chảy
+216,63,Nữ,1,1,1,1,0,Trung bình,0,Trung bình,"Tim, Phổi, Tiêu chảy"
+217,16,Nam,0,0,1,0,0,Cao,1,Trung bình,Phổi
+218,24,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tim
+219,64,Nam,1,1,1,1,0,Cao,1,Trung bình,Phổi
+220,31,Nữ,0,0,0,1,0,Trung bình,1,Trung bình,Khác
+221,36,Nam,0,1,0,1,1,Cao,0,Cao,"Tim, Phổi"
+222,29,Nữ,1,0,0,0,1,Trung bình,0,Cao,Tim
+223,53,Nam,0,0,1,1,0,Cao,1,Cao,Tim
+224,73,Nữ,1,1,0,1,0,Trung bình,0,Cao,Tiêu chảy
+225,54,Nam,0,1,1,0,0,Cao,0,Cao,Tim
+226,45,Nam,1,1,1,1,1,Cao,0,Cao,"Phổi, Tiêu chảy"
+227,22,Nữ,0,0,1,0,1,Trung bình,0,Cao,Tim
+228,60,Nam,1,0,0,1,0,Cao,0,Cao,Tiêu chảy
+229,30,Nữ,0,0,0,1,0,Trung bình,0,Cao,Tim
+230,35,Nam,1,1,0,1,1,Cao,0,Cao,"Tim, Phổi"
+231,28,Nữ,1,0,0,0,1,Trung bình,0,Cao,Tim
+232,50,Nam,0,1,0,1,0,Cao,0,Cao,Khác
+233,19,Nữ,1,1,0,1,0,Cao,0,Cao,Tim
+234,55,Nam,0,0,0,0,0,Cao,0,Cao,Khác
+235,33,Nữ,1,0,0,0,1,Trung bình,0,Cao,Tim
+236,67,Nam,1,1,0,0,1,Trung bình,0,Cao,Khác
+237,39,Nữ,0,0,0,1,0,Trung bình,0,Cao,Tim
+238,47,Nam,1,1,0,0,1,Cao,0,Cao,"Tim, Phổi"
+239,29,Nữ,0,0,0,0,1,Trung bình,0,Cao,Tim
+240,58,Nam,1,1,0,1,0,Cao,0,Cao,Tiêu chảy
+241,63,Nữ,1,0,0,1,0,Cao,0,Cao,Tiêu chảy
+242,51,Nam,0,0,0,0,0,Cao,0,Cao,Khác
+243,24,Nữ,0,1,0,0,1,Trung bình,0,Cao,Tim
+244,64,Nam,0,1,0,1,1,Trung bình,0,Cao,Khác
+245,31,Nữ,0,0,0,1,0,Trung bình,0,Cao,Tim
+246,36,Nam,1,1,0,1,1,Cao,0,Cao,"Tim, Phổi"
+247,29,Nữ,1,0,0,1,1,Trung bình,0,Cao,Tim
+248,53,Nam,0,1,0,1,0,Cao,0,Cao,Khác
+249,73,Nữ,1,0,1,1,0,Cao,1,Thấp,"Tim, Phổi, Tiêu chảy"
+250,54,Nam,0,1,1,0,0,Cao,1,Cao,Tim
+251,45,Nam,1,1,1,1,1,Cao,1,Trung bình,"Phổi, Tiêu chảy"
+252,22,Nữ,0,0,0,0,1,Trung bình,0,Cao,Tim
+253,15,Nam,1,1,1,1,0,Cao,0,Cao,Tiêu chảy
+254,30,Nữ,0,0,0,1,0,Trung bình,1,Trung bình,Khác
+255,35,Nam,1,1,1,0,1,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+256,28,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+257,50,Nam,0,1,1,1,0,Cao,1,Trung bình,Phổi
+258,70,Nữ,1,1,1,1,0,Trung bình,0,Trung bình,"Tim, Phổi, Tiêu chảy"
+259,55,Nam,0,1,1,0,0,Cao,1,Trung bình,Tim
+260,33,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+261,48,Nam,1,1,0,1,0,Cao,1,Trung bình,Khác
+262,39,Nữ,0,0,0,1,0,Trung bình,1,Trung bình,Khác
+263,47,Nam,1,0,1,1,1,Cao,1,Trung bình,Phổi
+264,29,Nữ,0,0,0,0,1,Trung bình,0,Cao,Tim
+265,58,Nam,1,1,1,1,0,Cao,1,Trung bình,Phổi
+266,63,Nữ,1,1,1,1,0,Trung bình,1,Trung bình,"Tim, Phổi, Tiêu chảy"
+267,28,Nam,0,1,1,1,1,Cao,1,Trung bình,"Tim, Phổi, Tiêu chảy"
+268,24,Nữ,0,1,0,0,1,Trung bình,0,Cao,Tim
+269,64,Nam,1,1,1,1,0,Trung bình,1,Trung bình,Phổi
+270,31,Nữ,0,0,0,1,0,Trung bình,1,Cao,Tim
+271,36,Nam,1,1,1,0,0,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+272,29,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+273,53,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+274,73,Nữ,1,1,1,1,0,Cao,1,Cao,"Tim, Phổi, Tiêu chảy"
+275,54,Nam,0,1,1,0,0,Cao,1,Cao,Tim
+276,45,Nam,0,1,0,1,1,Cao,1,Trung bình,"Tim, Phổi"
+277,22,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tim
+278,60,Nam,1,1,1,1,0,Trung bình,1,Trung bình,Phổi
+279,30,Nữ,0,0,0,1,0,Trung bình,1,Trung bình,Khác
+280,35,Nam,1,1,1,0,0,Trung bình,0,Trung bình,"Phổi, Tiêu chảy"
+281,28,Nữ,1,0,0,0,1,Trung bình,0,Trung bình,Tim
+282,50,Nam,0,1,1,1,0,Cao,1,Thấp,Phổi
+283,70,Nữ,1,1,1,1,0,Trung bình,1,Thấp,"Tim, Phổi, Tiêu chảy"
+284,55,Nam,0,1,1,0,0,Cao,1,Thấp,Tim
+285,33,Nữ,1,0,0,0,1,Trung bình,0,Trung bình,Tim
+286,48,Nam,1,1,1,1,1,Cao,1,Thấp,"Phổi, Tiêu chảy"
+287,39,Nữ,0,0,0,1,0,Trung bình,1,Thấp,Tim
+288,47,Nam,1,1,0,1,0,Cao,1,Thấp,Khác
+289,29,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tim
+290,58,Nam,1,1,1,1,0,Cao,0,Thấp,Phổi
+291,63,Nữ,1,1,1,1,0,Trung bình,1,Thấp,"Tim, Phổi, Tiêu chảy"
+292,51,Nam,0,1,1,0,0,Cao,1,Thấp,Tim
+293,24,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tim
+294,20,Nam,1,1,1,1,1,Cao,1,Thấp,"Phổi, Tiêu chảy"
+295,31,Nữ,0,0,0,1,0,Trung bình,1,Thấp,Tim
+296,36,Nam,1,1,1,1,1,Cao,0,Trung bình,"Phổi, Tiêu chảy"
+297,29,Nữ,1,0,0,0,1,Trung bình,0,Cao,Tim
+298,53,Nam,0,1,1,1,0,Cao,1,Thấp,Phổi
+299,73,Nữ,1,1,1,1,0,Trung bình,1,Trung bình,"Tim, Phổi, Tiêu chảy"
+300,54,Nam,0,1,1,0,0,Trung bình,1,Trung bình,Tim
+301,45,Nam,1,1,1,0,0,Cao,1,Thấp,"Phổi, Tiêu chảy"
+302,22,Nữ,0,0,0,0,1,Trung bình,0,Cao,Tim
+303,60,Nam,1,1,1,0,0,Trung bình,0,Thấp,Tim
+304,30,Nữ,0,0,0,1,0,Trung bình,1,Thấp,Tim
+305,35,Nam,1,1,1,0,0,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+306,28,Nữ,1,0,0,0,1,Trung bình,0,Cao,Tim
+307,50,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+308,46,Nữ,1,1,1,1,0,Cao,1,Thấp,"Tim, Tiêu chảy"
+309,55,Nam,0,1,1,0,0,Cao,1,Thấp,Tim
+310,33,Nữ,1,0,0,0,1,Trung bình,0,Thấp,"Tim, Tiêu chảy"
+311,48,Nam,1,1,1,1,1,Cao,1,Thấp,"Phổi, Tiêu chảy"
+312,39,Nữ,0,0,0,1,0,Trung bình,0,Thấp,Tim
+313,47,Nam,1,1,0,1,1,Cao,1,Thấp,"Tim, Phổi"
+314,29,Nữ,0,0,1,0,1,Trung bình,0,Thấp,Tim
+315,58,Nam,1,1,1,1,0,Trung bình,1,Trung bình,Phổi
+316,63,Nữ,1,1,1,1,0,Trung bình,1,Thấp,"Tim, Phổi, Tiêu chảy"
+317,51,Nam,0,1,1,0,0,Trung bình,1,Thấp,Tim
+318,24,Nữ,0,0,1,1,1,Trung bình,0,Cao,Tim
+319,64,Nam,1,1,0,1,0,Cao,1,Cao,Tiêu chảy
+320,31,Nữ,0,1,0,1,0,Cao,0,Trung bình,"Tim, Phổi"
+321,36,Nam,1,1,1,1,1,Cao,0,Cao,"Phổi, Tiêu chảy"
+322,29,Nữ,1,0,0,0,1,Thấp,0,Trung bình,Tim
+323,49,Nam,0,0,1,1,0,Cao,1,Cao,Phổi
+324,73,Nữ,1,1,1,1,0,Trung bình,1,Cao,"Tim, Phổi, Tiêu chảy"
+325,54,Nam,0,1,1,0,0,Trung bình,1,Thấp,Tim
+326,45,Nam,1,1,1,0,0,Cao,1,Cao,"Phổi, Tiêu chảy"
+327,6,Nữ,0,1,0,0,1,Trung bình,0,Trung bình,Tim
+328,60,Nam,1,1,1,1,0,Trung bình,1,Cao,Phổi
+329,30,Nữ,0,0,0,1,0,Cao,0,Trung bình,Khác
+330,35,Nam,1,1,1,0,0,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+331,28,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+332,50,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+333,38,Nữ,1,1,1,1,0,Cao,1,Cao,Tim
+334,55,Nam,0,1,1,0,0,Trung bình,1,Thấp,Tim
+335,33,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+336,48,Nam,1,1,1,1,1,Cao,1,Thấp,"Phổi, Tiêu chảy"
+337,39,Nữ,0,0,1,1,0,Trung bình,0,Thấp,Tim
+338,47,Nam,1,1,1,1,1,Thấp,1,Thấp,"Phổi, Tiêu chảy"
+339,29,Nữ,0,0,1,0,1,Trung bình,0,Thấp,Tim
+340,58,Nam,1,1,1,1,0,Trung bình,0,Thấp,Phổi
+341,63,Nữ,1,1,1,1,0,Cao,1,Thấp,"Tim, Phổi, Tiêu chảy"
+342,51,Nam,0,1,1,0,0,Thấp,1,Thấp,Tim
+343,24,Nữ,0,0,0,0,1,Thấp,0,Trung bình,Tim
+344,64,Nam,1,1,1,1,0,Trung bình,1,Cao,Phổi
+345,31,Nữ,0,0,0,1,0,Cao,0,Trung bình,Khác
+346,36,Nam,1,1,1,1,1,Cao,0,Cao,"Phổi, Tiêu chảy"
+347,29,Nữ,1,0,0,0,1,Thấp,0,Trung bình,Tim
+348,53,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+349,73,Nữ,1,1,1,1,0,Trung bình,1,Cao,"Tim, Phổi, Tiêu chảy"
+350,39,Nam,0,1,1,0,1,Cao,1,Cao,"Tim, Phổi, Tiêu chảy"
+351,45,Nam,1,1,0,0,1,Cao,1,Cao,"Tim, Phổi"
+352,22,Nữ,0,0,0,0,1,Thấp,0,Trung bình,Tim
+353,60,Nam,1,1,1,1,0,Trung bình,1,Cao,Phổi
+354,30,Nữ,0,0,1,1,0,Trung bình,0,Cao,Tim
+355,35,Nam,1,1,1,1,1,Cao,0,Cao,"Phổi, Tiêu chảy"
+356,16,Nữ,1,0,1,0,1,Trung bình,0,Trung bình,"Tim, Phổi"
+357,50,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+358,70,Nữ,1,1,1,1,0,Trung bình,1,Trung bình,"Tim, Phổi, Tiêu chảy"
+359,32,Nam,0,0,1,1,1,Cao,1,Cao,Phổi
+360,19,Nữ,1,1,0,0,1,Trung bình,0,Trung bình,Tim
+361,85,Nam,1,1,1,0,1,Trung bình,1,Cao,Tim
+362,18,Nữ,0,0,0,0,0,Trung bình,0,Thấp,Khác
+363,47,Nam,1,1,1,1,0,Cao,1,Cao,"Phổi, Tiêu chảy"
+364,10,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tiêu chảy
+365,58,Nam,1,1,1,1,0,Cao,1,Cao,Phổi
+366,63,Nữ,1,1,1,1,0,Trung bình,1,Cao,"Tim, Phổi, Tiêu chảy"
+367,51,Nam,0,1,1,0,0,Cao,0,Cao,Tim
+368,24,Nữ,0,0,0,0,1,Trung bình,0,Thấp,Tim
+369,18,Nam,1,1,0,1,0,Cao,1,Thấp,Khác
+370,31,Nữ,0,0,1,1,0,Trung bình,0,Cao,Tim
+371,36,Nam,1,1,1,0,1,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+372,11,Nữ,1,0,1,0,1,Trung bình,0,Trung bình,"Tim, Phổi"
+373,53,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+374,73,Nữ,1,1,1,1,0,Trung bình,1,Trung bình,"Tim, Phổi, Tiêu chảy"
+375,54,Nam,0,1,1,0,0,Cao,1,Cao,Tim
+376,45,Nam,1,1,0,1,1,Cao,1,Cao,"Tim, Phổi"
+377,22,Nữ,0,0,0,0,1,Trung bình,0,Thấp,Tim
+378,45,Nam,1,1,1,1,0,Cao,1,Cao,"Phổi, Tiêu chảy"
+379,6,Nữ,0,0,0,1,0,Trung bình,0,Trung bình,Tiêu chảy
+380,35,Nam,1,1,1,0,1,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+381,9,Nữ,1,0,0,0,1,Trung bình,0,Trung bình,Tiêu chảy
+382,50,Nam,0,1,1,1,0,Trung bình,1,Cao,Phổi
+383,70,Nữ,1,1,1,1,0,Cao,1,Cao,"Tim, Phổi, Tiêu chảy"
+384,55,Nam,0,1,1,0,0,Trung bình,1,Trung bình,Tim
+385,33,Nữ,1,1,0,0,1,Trung bình,0,Cao,Tim
+386,48,Nam,1,1,1,1,1,Cao,1,Cao,"Phổi, Tiêu chảy"
+387,5,Nữ,0,0,0,0,0,Trung bình,0,Thấp,Khác
+388,47,Nam,1,0,1,1,1,Cao,1,Cao,Phổi
+389,16,Nữ,0,1,0,1,1,Trung bình,0,Trung bình,Tim
+390,48,Nam,1,0,1,1,1,Cao,1,Cao,Phổi
+391,63,Nữ,1,1,1,1,0,Trung bình,1,Cao,"Tim, Phổi, Tiêu chảy"
+392,51,Nam,0,1,1,0,0,Trung bình,1,Cao,Tim
+393,24,Nữ,0,0,0,0,1,Trung bình,0,Cao,Tim
+394,42,Nam,1,0,1,1,1,Cao,1,Cao,Phổi
+395,18,Nữ,0,0,0,0,0,Trung bình,0,Trung bình,Khác
+396,36,Nam,1,1,0,1,0,Cao,0,Cao,Khác
+397,29,Nữ,1,1,0,0,1,Trung bình,0,Cao,Tim
+398,53,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+399,73,Nữ,1,1,1,1,0,Cao,1,Cao,"Tim, Phổi, Tiêu chảy"
+400,54,Nam,0,1,1,0,0,Cao,1,Cao,Tim
+401,45,Nam,1,1,1,0,1,Cao,1,Cao,"Phổi, Tiêu chảy"
+402,22,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tim
+403,60,Nam,1,1,1,1,0,Cao,1,Cao,Phổi
+404,30,Nữ,0,0,0,1,0,Trung bình,0,Thấp,Tim
+405,35,Nam,1,0,1,1,1,Trung bình,0,Cao,Phổi
+406,28,Nữ,1,0,0,0,1,Trung bình,0,Trung bình,Tim
+407,47,Nam,0,1,1,1,1,Cao,1,Cao,"Tim, Phổi, Tiêu chảy"
+408,70,Nữ,1,1,1,1,0,Trung bình,1,Cao,"Tim, Phổi, Tiêu chảy"
+409,55,Nam,0,1,1,0,0,Trung bình,1,Trung bình,Tim
+410,33,Nữ,1,0,0,0,1,Trung bình,0,Trung bình,Tim
+411,48,Nam,1,1,1,1,1,Trung bình,1,Cao,"Phổi, Tiêu chảy"
+412,39,Nữ,0,0,0,1,0,Trung bình,0,Thấp,Tim
+413,47,Nam,1,1,0,0,0,Cao,1,Cao,Khác
+414,29,Nữ,0,0,1,0,1,Trung bình,0,Cao,Tim
+415,38,Nam,1,1,1,1,0,Thấp,1,Cao,"Phổi, Tiêu chảy"
+416,63,Nữ,1,1,1,1,0,Trung bình,1,Cao,"Tim, Phổi, Tiêu chảy"
+417,51,Nam,0,1,0,0,0,Thấp,1,Cao,Khác
+418,24,Nữ,0,0,0,0,1,Trung bình,0,Thấp,Tim
+419,64,Nam,1,1,1,1,0,Thấp,1,Cao,Phổi
+420,31,Nữ,0,0,0,1,0,Trung bình,0,Trung bình,Khác
+421,36,Nam,1,1,1,1,0,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+422,29,Nữ,1,0,0,0,1,Trung bình,0,Trung bình,Tim
+423,33,Nam,0,1,1,1,0,Cao,1,Cao,"Tim, Phổi, Tiêu chảy"
+424,73,Nữ,1,1,1,0,0,Cao,1,Cao,Khác
+425,54,Nam,0,1,1,0,0,Thấp,1,Cao,Tim
+426,45,Nam,1,1,1,1,0,Thấp,1,Cao,"Phổi, Tiêu chảy"
+427,2,Nữ,0,0,0,0,1,Trung bình,0,Trung bình,Tiêu chảy
+428,44,Nam,1,1,0,1,0,Cao,1,Cao,Khác
+429,30,Nữ,0,0,0,1,0,Trung bình,0,Thấp,Tim
+430,35,Nam,1,1,1,0,0,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+431,28,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+432,50,Nam,0,1,1,1,0,Trung bình,1,Cao,Phổi
+433,70,Nữ,1,1,1,0,0,Thấp,1,Cao,Khác
+434,22,Nam,0,1,0,0,0,Cao,1,Cao,Khác
+435,33,Nữ,1,0,0,1,1,Trung bình,0,Trung bình,Tim
+436,48,Nam,1,0,1,1,0,Trung bình,1,Cao,Phổi
+437,39,Nữ,0,0,1,1,0,Trung bình,0,Cao,Tim
+438,47,Nam,1,1,1,1,0,Cao,1,Cao,"Phổi, Tiêu chảy"
+439,29,Nữ,0,0,0,0,1,Trung bình,0,Thấp,Tim
+440,58,Nam,1,1,0,1,0,Cao,1,Cao,Tiêu chảy
+441,63,Nữ,1,1,1,0,0,Trung bình,1,Cao,Khác
+442,28,Nam,0,1,1,1,0,Cao,1,Cao,"Tim, Phổi, Tiêu chảy"
+443,6,Nữ,0,0,1,0,1,Trung bình,0,Thấp,"Tim, Phổi"
+444,64,Nam,1,1,1,0,0,Trung bình,1,Cao,Tim
+445,7,Nữ,0,0,0,0,0,Trung bình,0,Trung bình,Khác
+446,36,Nam,1,1,1,1,0,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+447,29,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+448,53,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+449,73,Nữ,1,1,1,0,0,Trung bình,1,Cao,Khác
+450,54,Nam,0,1,1,0,0,Cao,1,Cao,Tim
+451,45,Nam,1,1,0,0,0,Cao,1,Cao,Khác
+452,22,Nữ,0,0,0,0,1,Trung bình,0,Thấp,Tim
+453,27,Nam,1,1,1,0,0,Cao,1,Cao,"Phổi, Tiêu chảy"
+454,8,Nữ,0,0,0,1,0,Trung bình,0,Trung bình,Tiêu chảy
+455,35,Nam,1,1,1,1,0,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+456,9,Nữ,1,1,0,0,1,Trung bình,0,Trung bình,Tim
+457,50,Nam,0,1,1,1,0,Trung bình,1,Thấp,Phổi
+458,70,Nữ,1,1,1,0,0,Cao,1,Cao,Khác
+459,55,Nam,0,1,1,0,0,Thấp,1,Cao,Tim
+460,33,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+461,48,Nam,0,1,0,1,0,Trung bình,1,Cao,Khác
+462,10,Nữ,0,0,0,0,0,Trung bình,0,Trung bình,Khác
+463,47,Nam,1,1,0,0,0,Cao,1,Cao,Khác
+464,8,Nữ,0,0,0,1,1,Trung bình,0,Trung bình,Tiêu chảy
+465,58,Nam,1,1,1,1,0,Cao,1,Cao,Phổi
+466,21,Nữ,1,1,1,0,0,Cao,1,Cao,Tim
+467,51,Nam,0,1,1,0,0,Cao,1,Cao,Tim
+468,9,Nữ,0,1,0,0,1,Trung bình,0,Trung bình,Tim
+469,64,Nam,1,1,1,0,0,Thấp,1,Cao,Tim
+470,31,Nữ,0,0,1,1,0,Trung bình,0,Cao,Tim
+471,36,Nam,1,1,1,1,0,Trung bình,0,Cao,"Phổi, Tiêu chảy"
+472,6,Nữ,1,1,0,0,1,Trung bình,0,Trung bình,Tim
+473,53,Nam,0,1,1,1,0,Cao,1,Cao,Phổi
+474,73,Nữ,1,1,1,0,0,Trung bình,1,Cao,Khác
+475,20,Nam,0,1,0,1,0,Cao,1,Cao,Khác
+476,45,Nam,1,1,1,1,0,Cao,1,Cao,"Phổi, Tiêu chảy"
+477,19,Nữ,0,1,0,0,1,Trung bình,0,Trung bình,Tim
+478,60,Nam,1,1,1,0,0,Thấp,1,Cao,Tim
+479,30,Nữ,0,0,0,1,0,Trung bình,0,Trung bình,Khác
+480,35,Nam,1,1,1,1,0,Trung bình,0,Thấp,"Phổi, Tiêu chảy"
+481,28,Nữ,1,0,1,0,1,Trung bình,0,Cao,Tim
+482,50,Nam,0,1,1,1,0,Cao,1,Thấp,Phổi
+483,70,Nữ,1,1,1,0,0,Trung bình,1,Cao,Khác
+484,27,Nam,0,1,0,1,0,Cao,1,Cao,Khác
+485,33,Nữ,1,0,0,0,1,Trung bình,0,Thấp,"Tim, Tiêu chảy"
+486,48,Nam,1,1,0,0,0,Trung bình,1,Thấp,"Tim, Phổi"
+487,39,Nữ,0,0,0,1,0,Trung bình,0,Trung bình,Khác
+488,47,Nam,1,1,1,1,0,Cao,1,Cao,"Phổi, Tiêu chảy"
+489,29,Nữ,0,0,0,1,1,Trung bình,0,Trung bình,Tim
+490,58,Nam,1,1,1,1,0,Thấp,1,Cao,Phổi
+491,63,Nữ,1,1,1,0,0,Cao,0,Thấp,Khác
+492,51,Nam,0,1,1,0,0,Cao,1,Cao,Tim
+493,24,Nữ,0,0,0,0,1,Trung bình,0,Thấp,Tim
+494,64,Nam,1,1,0,1,0,Cao,1,Thấp,Tiêu chảy
+495,8,Nữ,1,0,1,0,1,Trung bình,0,Trung bình,"Tim, Phổi"
+496,36,Nam,1,0,1,1,0,Trung bình,0,Thấp,Phổi
+497,29,Nữ,1,0,0,1,1,Trung bình,0,Trung bình,Tim
+498,53,Nam,0,1,1,1,0,Thấp,1,Cao,Phổi
+499,30,Nữ,1,1,1,1,0,Cao,1,Cao,Tim
+500,54,Nam,0,1,1,0,0,Trung bình,1,Thấp,Tim

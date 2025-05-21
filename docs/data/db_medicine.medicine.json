@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "68286178e132e0fc8d00330c"
+  },
+  "genericName": "Paracetamol",
+  "brandName": "Panadol",
+  "dosageForm": "Tablet",
+  "strength": "500 mg",
+  "route": "Oral"
+},
+{
+  "_id": {
+    "$oid": "68286191e132e0fc8d00330d"
+  },
+  "genericName": "Amoxicillin",
+  "brandName": "Augmentin",
+  "dosageForm": "Tablet",
+  "strength": "625 mg",
+  "route": "Oral"
+},
+{
+  "_id": {
+    "$oid": "682861a1e132e0fc8d00330e"
+  },
+  "genericName": "Metformin",
+  "brandName": "Glucophage",
+  "dosageForm": "Tablet",
+  "strength": "500 mg",
+  "route": "Oral"
+},
+{
+  "_id": {
+    "$oid": "682861ade132e0fc8d00330f"
+  },
+  "genericName": "Salbutamol",
+  "brandName": "Ventolin",
+  "dosageForm": "Inhaler",
+  "strength": "100 mcg",
+  "route": "Inhalation"
+},
+{
+  "_id": {
+    "$oid": "682861bae132e0fc8d003310"
+  },
+  "genericName": "Ceftriaxone",
+  "brandName": "Rocephin",
+  "dosageForm": "Injection",
+  "strength": "1 g",
+  "route": "IV"
+}]

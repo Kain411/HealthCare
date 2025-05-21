@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "68286431e132e0fc8d003325"
+  },
+  "prescriptionID": "682863d5e132e0fc8d003320",
+  "medicineID": "68286178e132e0fc8d00330c",
+  "quantity": 2
+},
+{
+  "_id": {
+    "$oid": "68286470e132e0fc8d003326"
+  },
+  "prescriptionID": "682863d5e132e0fc8d003320",
+  "medicineID": "68286191e132e0fc8d00330d",
+  "quantity": 5
+},
+{
+  "_id": {
+    "$oid": "6828647ee132e0fc8d003327"
+  },
+  "prescriptionID": "682863d5e132e0fc8d003320",
+  "medicineID": "682861a1e132e0fc8d00330e",
+  "quantity": 3
+},
+{
+  "_id": {
+    "$oid": "68286488e132e0fc8d003328"
+  },
+  "prescriptionID": "68286403e132e0fc8d003323",
+  "medicineID": "682861ade132e0fc8d00330f",
+  "quantity": 4
+},
+{
+  "_id": {
+    "$oid": "6828649fe132e0fc8d003329"
+  },
+  "prescriptionID": "68286403e132e0fc8d003323",
+  "medicineID": "682861bae132e0fc8d003310",
+  "quantity": 6
+}]

@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "682b448a26b4e47da1fdbad0"
+  },
+  "appointmentID": "682b437e26b4e47da1fdbac5",
+  "patientID": "68274a2c7561294a0506b04a"
+},
+{
+  "_id": {
+    "$oid": "682b448a26b4e47da1fdbad1"
+  },
+  "appointmentID": "682b437e26b4e47da1fdbac7",
+  "patientID": "68274a2c7561294a0506b04a"
+},
+{
+  "_id": {
+    "$oid": "682b448a26b4e47da1fdbad2"
+  },
+  "appointmentID": "682b437e26b4e47da1fdbac6",
+  "patientID": "68274a2c7561294a0506b04a"
+}]
