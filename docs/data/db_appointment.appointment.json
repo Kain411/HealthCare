@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "682b437e26b4e47da1fdbac1"
   },
-  "doctorID": "682862a5e132e0fc8d003313",
+  "doctorID": "682862b4e132e0fc8d003313",
   "time": "07:00",
   "day": "Thứ 2"
 },
@@ -10,7 +10,7 @@
   "_id": {
     "$oid": "682b437e26b4e47da1fdbac2"
   },
-  "doctorID": "682862a5e132e0fc8d003314",
+  "doctorID": "682862c6e132e0fc8d003314",
   "time": "07:00",
   "day": "Thứ 2"
 },
@@ -18,7 +18,7 @@
   "_id": {
     "$oid": "682b437e26b4e47da1fdbac3"
   },
-  "doctorID": "682862a5e132e0fc8d003315",
+  "doctorID": "682862dae132e0fc8d003315",
   "time": "07:00",
   "day": "Thứ 2"
 },
@@ -26,7 +26,7 @@
   "_id": {
     "$oid": "682b437e26b4e47da1fdbac4"
   },
-  "doctorID": "682862a5e132e0fc8d003316",
+  "doctorID": "682862e7e132e0fc8d003316",
   "time": "07:00",
   "day": "Thứ 2"
 },
