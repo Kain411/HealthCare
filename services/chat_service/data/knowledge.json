@@ -1,0 +1,469 @@
+[
+  {
+    "name": "Cảm cúm",
+    "symptoms": [
+      "Sốt",
+      "Đau đầu",
+      "Chảy nước mũi",
+      "Ho",
+      "Mệt mỏi"
+    ],
+    "description": "Bệnh do virus cúm gây ra, thường lây qua đường hô hấp.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Cảm lạnh",
+    "symptoms": [
+      "Sốt",
+      "Đau đầu",
+      "Chảy nước mũi",
+      "Ho",
+      "Mệt mỏi"
+    ],
+    "description": "Bệnh nhẹ do virus thông thường gây ra, thường gặp khi thay đổi thời tiết.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Viêm phế quản",
+    "symptoms": [
+      "Ho",
+      "Sốt",
+      "Khó thở",
+      "Đau ngực",
+      "Mệt mỏi"
+    ],
+    "description": "Tình trạng viêm ở đường dẫn khí lớn trong phổi.",
+    "specialty": "Hô Hấp"
+  },
+  {
+    "name": "Viêm phổi",
+    "symptoms": [
+      "Sốt cao",
+      "Ho có đờm",
+      "Khó thở",
+      "Đau ngực khi thở",
+      "Mệt mỏi"
+    ],
+    "description": "Nhiễm trùng phổi do vi khuẩn, virus hoặc nấm.",
+    "specialty": "Hô Hấp"
+  },
+  {
+    "name": "Sốt xuất huyết",
+    "symptoms": [
+      "Sốt cao đột ngột",
+      "Đau đầu dữ dội",
+      "Đau sau hốc mắt",
+      "Phát ban",
+      "Chảy máu cam"
+    ],
+    "description": "Do virus Dengue gây ra, lây qua muỗi.",
+    "specialty": "Truyền Nhiễm"
+  },
+  {
+    "name": "COVID-19",
+    "symptoms": [
+      "Sốt",
+      "Ho",
+      "Khó thở",
+      "Mất vị giác",
+      "Mệt mỏi"
+    ],
+    "description": "Do virus SARS-CoV-2 gây ra, lây qua giọt bắn.",
+    "specialty": "Truyền Nhiễm"
+  },
+  {
+    "name": "Hen suyễn",
+    "symptoms": [
+      "Khó thở",
+      "Thở khò khè",
+      "Ho",
+      "Tức ngực"
+    ],
+    "description": "Bệnh mãn tính ảnh hưởng đến đường hô hấp.",
+    "specialty": "Hô Hấp"
+  },
+  {
+    "name": "Viêm họng",
+    "symptoms": [
+      "Đau họng",
+      "Sốt",
+      "Khó nuốt",
+      "Ho",
+      "Khàn tiếng"
+    ],
+    "description": "Tình trạng viêm ở vùng họng, có thể do virus hoặc vi khuẩn.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Đau dạ dày",
+    "symptoms": [
+      "Đau bụng",
+      "Buồn nôn",
+      "Ợ chua",
+      "Chán ăn",
+      "Đầy hơi"
+    ],
+    "description": "Tình trạng viêm hoặc loét niêm mạc dạ dày.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Viêm gan B",
+    "symptoms": [
+      "Mệt mỏi",
+      "Vàng da",
+      "Nước tiểu sẫm màu",
+      "Buồn nôn",
+      "Đau hạ sườn phải"
+    ],
+    "description": "Bệnh nhiễm virus gây tổn thương gan.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Viêm gan C",
+    "symptoms": [
+      "Mệt mỏi",
+      "Vàng da",
+      "Đau hạ sườn phải",
+      "Buồn nôn",
+      "Chán ăn"
+    ],
+    "description": "Bệnh truyền qua máu do virus HCV.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Tiểu đường",
+    "symptoms": [
+      "Khát nước",
+      "Đi tiểu nhiều",
+      "Giảm cân",
+      "Mệt mỏi",
+      "Nhìn mờ"
+    ],
+    "description": "Bệnh rối loạn chuyển hóa đường huyết.",
+    "specialty": "Nội Tiết"
+  },
+  {
+    "name": "Cao huyết áp",
+    "symptoms": [
+      "Đau đầu",
+      "Hoa mắt",
+      "Khó thở",
+      "Mệt mỏi",
+      "Chảy máu cam"
+    ],
+    "description": "Tình trạng áp lực máu tăng cao kéo dài.",
+    "specialty": "Tim Mạch"
+  },
+  {
+    "name": "Thiếu máu",
+    "symptoms": [
+      "Mệt mỏi",
+      "Chóng mặt",
+      "Da xanh xao",
+      "Khó thở",
+      "Tim đập nhanh"
+    ],
+    "description": "Giảm số lượng hồng cầu hoặc hemoglobin.",
+    "specialty": "Huyết Học"
+  },
+  {
+    "name": "Rối loạn lo âu",
+    "symptoms": [
+      "Lo lắng",
+      "Tim đập nhanh",
+      "Khó ngủ",
+      "Đổ mồ hôi",
+      "Hồi hộp"
+    ],
+    "description": "Tình trạng tâm lý thường gặp, gây ảnh hưởng sinh hoạt.",
+    "specialty": "Tâm Thần"
+  },
+  {
+    "name": "Trầm cảm",
+    "symptoms": [
+      "Buồn bã",
+      "Mất hứng thú",
+      "Mệt mỏi",
+      "Khó ngủ",
+      "Tự ti"
+    ],
+    "description": "Bệnh lý tâm thần với cảm giác buồn chán kéo dài.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Đau nửa đầu",
+    "symptoms": [
+      "Đau đầu",
+      "Buồn nôn",
+      "Nhạy cảm ánh sáng",
+      "Mờ mắt",
+      "Chóng mặt"
+    ],
+    "description": "Đau đầu theo từng cơn, thường một bên.",
+    "specialty": "Thần Kinh"
+  },
+  {
+    "name": "Suy giáp",
+    "symptoms": [
+      "Mệt mỏi",
+      "Tăng cân",
+      "Lạnh",
+      "Da khô",
+      "Trầm cảm"
+    ],
+    "description": "Tuyến giáp hoạt động kém, giảm sản xuất hormone.",
+    "specialty": "Nội Tiết"
+  },
+  {
+    "name": "Cường giáp",
+    "symptoms": [
+      "Giảm cân",
+      "Tim đập nhanh",
+      "Lo lắng",
+      "Run tay",
+      "Khó ngủ"
+    ],
+    "description": "Tuyến giáp hoạt động quá mức.",
+    "specialty": "Nội Tiết"
+  },
+  {
+    "name": "Viêm ruột thừa",
+    "symptoms": [
+      "Đau bụng dưới bên phải",
+      "Sốt",
+      "Buồn nôn",
+      "Mất cảm giác ăn",
+      "Tiêu chảy nhẹ"
+    ],
+    "description": "Tình trạng viêm nhiễm ruột thừa, cần phẫu thuật.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Viêm xoang",
+    "symptoms": [
+      "Đau đầu",
+      "Chảy nước mũi",
+      "Nghẹt mũi",
+      "Đau quanh mắt",
+      "Ho"
+    ],
+    "description": "Tình trạng viêm ở các xoang cạnh mũi, gây ra bởi nhiễm trùng hoặc dị ứng.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Viêm amidan",
+    "symptoms": [
+      "Đau họng",
+      "Sốt",
+      "Khó nuốt",
+      "Sưng amidan",
+      "Khàn tiếng"
+    ],
+    "description": "Viêm các tuyến amidan do vi khuẩn hoặc virus gây ra.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Thoái hóa cột sống",
+    "symptoms": [
+      "Đau lưng",
+      "Cứng khớp",
+      "Đau khi vận động",
+      "Tê chân tay",
+      "Hạn chế vận động"
+    ],
+    "description": "Bệnh mãn tính làm thoái hóa các khớp và đĩa đệm cột sống.",
+    "specialty": "Cơ Xương Khớp"
+  },
+  {
+    "name": "Viêm dạ dày",
+    "symptoms": [
+      "Đau bụng",
+      "Buồn nôn",
+      "Chán ăn",
+      "Đầy hơi",
+      "Ợ nóng"
+    ],
+    "description": "Tình trạng viêm lớp niêm mạc dạ dày do vi khuẩn, stress, thuốc.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Viêm đường tiết niệu",
+    "symptoms": [
+      "Tiểu buốt",
+      "Tiểu nhiều lần",
+      "Nước tiểu đục",
+      "Đau bụng dưới",
+      "Sốt nhẹ"
+    ],
+    "description": "Nhiễm trùng ở đường tiết niệu, thường gặp ở phụ nữ.",
+    "specialty": "Thận - Tiết Niệu"
+  },
+  {
+    "name": "Dị ứng thời tiết",
+    "symptoms": [
+      "Hắt hơi",
+      "Ngứa mũi",
+      "Chảy nước mũi",
+      "Ngứa mắt",
+      "Mệt mỏi"
+    ],
+    "description": "Phản ứng dị ứng khi thay đổi nhiệt độ hoặc độ ẩm.",
+    "specialty": "Da Liễu"
+  },
+  {
+    "name": "Rối loạn tiêu hóa",
+    "symptoms": [
+      "Đau bụng",
+      "Tiêu chảy",
+      "Đầy hơi",
+      "Buồn nôn",
+      "Khó tiêu"
+    ],
+    "description": "Chứng rối loạn nhẹ hệ tiêu hóa do thức ăn hoặc stress.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Viêm kết mạc",
+    "symptoms": [
+      "Đỏ mắt",
+      "Ngứa mắt",
+      "Chảy nước mắt",
+      "Sưng mí",
+      "Cộm mắt"
+    ],
+    "description": "Viêm lớp màng trong suốt bao phủ lòng trắng và mi mắt.",
+    "specialty": "Thần Kinh"
+  },
+  {
+    "name": "Viêm tai giữa",
+    "symptoms": [
+      "Đau tai",
+      "Sốt",
+      "Chảy mủ tai",
+      "Nghe kém",
+      "Khó ngủ"
+    ],
+    "description": "Tình trạng viêm tai phổ biến ở trẻ em, do vi khuẩn hoặc virus.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Viêm bàng quang",
+    "symptoms": [
+      "Tiểu buốt",
+      "Tiểu nhiều lần",
+      "Đau bụng dưới",
+      "Nước tiểu đục",
+      "Tiểu ra máu"
+    ],
+    "description": "Nhiễm trùng đường tiểu gây viêm bàng quang.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Lupus ban đỏ hệ thống",
+    "symptoms": [
+      "Mệt mỏi",
+      "Phát ban hình cánh bướm",
+      "Đau khớp",
+      "Sốt",
+      "Rụng tóc"
+    ],
+    "description": "Bệnh tự miễn ảnh hưởng nhiều cơ quan như da, khớp, thận, não.",
+    "specialty": "Huyết Học"
+  },
+  {
+    "name": "Zona thần kinh",
+    "symptoms": [
+      "Phát ban mụn nước",
+      "Đau rát da",
+      "Sốt nhẹ",
+      "Ngứa",
+      "Cảm giác kim châm"
+    ],
+    "description": "Tái hoạt động của virus thủy đậu gây viêm dây thần kinh cảm giác.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Viêm đại tràng",
+    "symptoms": [
+      "Đau bụng dưới",
+      "Tiêu chảy kéo dài",
+      "Chướng bụng",
+      "Mệt mỏi",
+      "Đi ngoài ra máu"
+    ],
+    "description": "Tình trạng viêm niêm mạc ruột già, có thể do vi khuẩn, virus hoặc rối loạn miễn dịch.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Viêm xoang",
+    "symptoms": [
+      "Đau đầu vùng trán",
+      "Nghẹt mũi",
+      "Chảy mũi vàng/xanh",
+      "Sốt nhẹ",
+      "Mất mùi"
+    ],
+    "description": "Viêm các xoang cạnh mũi do nhiễm trùng hoặc dị ứng.",
+    "specialty": "Tai Mũi Họng"
+  },
+  {
+    "name": "Viêm da tiếp xúc",
+    "symptoms": [
+      "Ngứa",
+      "Phát ban đỏ",
+      "Bong tróc da",
+      "Rát da",
+      "Sưng nhẹ"
+    ],
+    "description": "Phản ứng viêm da khi tiếp xúc với chất gây dị ứng hoặc kích ứng.",
+    "specialty": "Da Liễu"
+  },
+  {
+    "name": "Viêm bàng quang",
+    "symptoms": [
+      "Tiểu buốt",
+      "Tiểu rắt",
+      "Đau bụng dưới",
+      "Tiểu đục",
+      "Sốt nhẹ"
+    ],
+    "description": "Nhiễm trùng đường tiết niệu dưới, chủ yếu do vi khuẩn.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Thoát vị đĩa đệm",
+    "symptoms": [
+      "Đau lưng",
+      "Tê chân",
+      "Yếu cơ",
+      "Đau lan xuống chân",
+      "Giảm linh hoạt vận động"
+    ],
+    "description": "Đĩa đệm bị lệch, chèn ép dây thần kinh, thường gặp ở vùng thắt lưng.",
+    "specialty": "Cơ Xương Khớp"
+  },
+  {
+    "name": "Viêm loét dạ dày tá tràng",
+    "symptoms": [
+      "Đau vùng thượng vị",
+      "Buồn nôn",
+      "Ợ nóng",
+      "Chán ăn",
+      "Sụt cân"
+    ],
+    "description": "Tổn thương niêm mạc dạ dày hoặc tá tràng, do vi khuẩn HP hoặc thuốc.",
+    "specialty": "Tiêu Hóa"
+  },
+  {
+    "name": "Suy tim",
+    "symptoms": [
+      "Khó thở khi gắng sức",
+      "Phù chân",
+      "Mệt mỏi",
+      "Ho khan",
+      "Tăng cân nhanh"
+    ],
+    "description": "Tim không đủ khả năng bơm máu hiệu quả, gây tích tụ dịch trong cơ thể.",
+    "specialty": "Tim Mạch"
+  }
+]

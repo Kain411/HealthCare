@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { getAppointmentsByDoctorID, getAppointmentsByPatientID, postNewAppointment } from "../services/AppointmentService";
+import { getAppointmentsByDoctorID, getAppointmentsByPatientID, postNewAppointment, deleteAppointment } from "../services/AppointmentService";
 
 export const AppointmentContext = createContext()
 
@@ -34,8 +34,18 @@ export const AppointmentProvider = ({children}) => {
         return result
     }
 
+    const handleDeleteAppointment = async (patientID, data) => {
+        const result = await deleteAppointment(data)
+
+        if (result.success) {
+            await handleGetAppointmentByPatientID(patientID)
+        }
+
+        return result
+    }
+
     return (
-        <AppointmentContext.Provider value={{ myAppointment, handleGetAppointmentByDoctorID, handleGetAppointmentByPatientID, handlePostNewAppointment }}>
+        <AppointmentContext.Provider value={{ myAppointment, handleGetAppointmentByDoctorID, handleGetAppointmentByPatientID, handlePostNewAppointment, handleDeleteAppointment }}>
             {children}
         </AppointmentContext.Provider>
     )

@@ -27,8 +27,15 @@
 }
 
 .button {
-  border: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #dedede;
 }
 
 .container {

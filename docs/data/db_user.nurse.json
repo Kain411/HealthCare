@@ -1,55 +1,57 @@
-[{
-  "_id": {
-    "$oid": "682b4d3926b4e47da1fdbad1"
+[
+  {
+    "_id": {
+      "$oid": "682b4d3926b4e47da1fdbad1"
+    },
+    "username": "thuy.nguyen",
+    "gender": "Nữ",
+    "shift": "Ca sáng",
+    "department": "Nhi khoa",
+    "phone": "0912345678",
+    "location": "Bệnh viện Đa khoa Hà Nội"
   },
-  "username": "thuy.nguyen",
-  "gender": "Female",
-  "shift": "Morning",
-  "department": "Pediatrics",
-  "phone": "0912345678",
-  "location": "Hanoi General Hospital"
-},
-{
-  "_id": {
-    "$oid": "682b4d3926b4e47da1fdbad2"
+  {
+    "_id": {
+      "$oid": "682b4d3926b4e47da1fdbad2"
+    },
+    "username": "minh.tran",
+    "gender": "Nam",
+    "shift": "Ca chiều",
+    "department": "Cấp cứu",
+    "phone": "0933224455",
+    "location": "Bệnh viện Trung tâm Sài Gòn"
   },
-  "username": "minh.tran",
-  "gender": "Male",
-  "shift": "Evening",
-  "department": "Emergency",
-  "phone": "0933224455",
-  "location": "Saigon Central Hospital"
-},
-{
-  "_id": {
-    "$oid": "682b4d3926b4e47da1fdbad3"
+  {
+    "_id": {
+      "$oid": "682b4d3926b4e47da1fdbad3"
+    },
+    "username": "lan.pham",
+    "gender": "Nữ",
+    "shift": "Ca đêm",
+    "department": "Hồi sức tích cực",
+    "phone": "0908776655",
+    "location": "Bệnh viện Thành phố Đà Nẵng"
   },
-  "username": "lan.pham",
-  "gender": "Female",
-  "shift": "Night",
-  "department": "Intensive Care",
-  "phone": "0908776655",
-  "location": "Danang City Hospital"
-},
-{
-  "_id": {
-    "$oid": "682b4d3926b4e47da1fdbad4"
+  {
+    "_id": {
+      "$oid": "682b4d3926b4e47da1fdbad4"
+    },
+    "username": "hieu.le",
+    "gender": "Nam",
+    "shift": "Ca sáng",
+    "department": "Phẫu thuật",
+    "phone": "0988112233",
+    "location": "Bệnh viện Đại học Huế"
   },
-  "username": "hieu.le",
-  "gender": "Male",
-  "shift": "Morning",
-  "department": "Surgery",
-  "phone": "0988112233",
-  "location": "Hue University Hospital"
-},
-{
-  "_id": {
-    "$oid": "682b4d3926b4e47da1fdbad5"
-  },
-  "username": "thu.vu",
-  "gender": "Female",
-  "shift": "Evening",
-  "department": "Oncology",
-  "phone": "0966554433",
-  "location": "Can Tho Medical Center"
-}]
+  {
+    "_id": {
+      "$oid": "682b4d3926b4e47da1fdbad5"
+    },
+    "username": "thu.vu",
+    "gender": "Nữ",
+    "shift": "Ca chiều",
+    "department": "Ung bướu",
+    "phone": "0966554433",
+    "location": "Trung tâm Y tế Cần Thơ"
+  }
+]

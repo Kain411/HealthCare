@@ -1,4 +1,19 @@
 services:
+  user_service:
+    build: ./services/user_service
+    container_name: user_service
+    ports:
+      - "5000:5000"
+    environment:
+      - UserDB=mongodb://host.docker.internal:27017/db_user
+    env_file:
+      - .env
+    depends_on:
+      - patient_service
+      - doctor_service
+    networks:
+      - app-network
+
   patient_service:
     build: ./services/patient_service
     container_name: patient_service
@@ -94,6 +109,14 @@ services:
     networks:
       - app-network
 
+  chat_service:
+    build: ./services/chat_service
+    container_name: chat_service
+    ports:
+      - "5012:5012"
+    networks:
+      - app-network
+
   gateway_container:
     build: ./gateway
     container_name: gateway_container
@@ -110,6 +133,7 @@ services:
       - prescription_service
       - medicine_service
       - predict_service
+      - chat_service
     networks:
       - app-network
 

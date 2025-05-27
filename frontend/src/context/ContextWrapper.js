@@ -4,22 +4,28 @@ import { AppointmentProvider } from "./AppointmentContext";
 import { PrescriptionProvider } from "./PrescriptionContext";
 import { PredictProvider } from "./PredictContext";
 import { MedicalRecordProvider } from "./MedicalRecordContext";
+import { ChatboxProvider } from "./ChatboxContext";
+import { UserProvider } from "./UserContext";
 
 const ContextWrapper = ({children}) => {
     return (
-        <PatientProvider>
-            <DoctorProvider>
-                <AppointmentProvider>
-                    <PrescriptionProvider>
-                        <MedicalRecordProvider>
-                            <PredictProvider>
-                                {children}
-                            </PredictProvider>
-                        </MedicalRecordProvider>
-                    </PrescriptionProvider>
-                </AppointmentProvider>
-            </DoctorProvider>
-        </PatientProvider>
+        <UserProvider>
+            <PatientProvider>
+                <DoctorProvider>
+                    <AppointmentProvider>
+                        <PrescriptionProvider>
+                            <MedicalRecordProvider>
+                                <ChatboxProvider>
+                                    <PredictProvider>
+                                        {children}
+                                    </PredictProvider>
+                                </ChatboxProvider>
+                            </MedicalRecordProvider>
+                        </PrescriptionProvider>
+                    </AppointmentProvider>
+                </DoctorProvider>
+            </PatientProvider>
+        </UserProvider>
     )
 }
 

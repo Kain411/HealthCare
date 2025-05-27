@@ -1,55 +1,57 @@
-[{
-  "_id": {
-    "$oid": "682862a5e132e0fc8d003312"
+[
+  {
+    "_id": {
+      "$oid": "682862a5e132e0fc8d003312"
+    },
+    "username": "dr.nguyenanh",
+    "gender": "Nam",
+    "specialties": "Tim mạch",
+    "licenseNumber": "VN12345678",
+    "phone": "0901234567",
+    "location": "Hà Nội"
   },
-  "username": "dr.nguyenanh",
-  "gender": "Male",
-  "specialties": "Cardiology",
-  "licenseNumber": "VN12345678",
-  "phone": "0901234567",
-  "location": "Hanoi"
-},
-{
-  "_id": {
-    "$oid": "682862b4e132e0fc8d003313"
+  {
+    "_id": {
+      "$oid": "682862b4e132e0fc8d003313"
+    },
+    "username": "dr.tranthi",
+    "gender": "Nữ",
+    "specialties": "Nhi khoa",
+    "licenseNumber": "VN87654321",
+    "phone": "0912345678",
+    "location": "Thành phố Hồ Chí Minh"
   },
-  "username": "dr.tranthi",
-  "gender": "Female",
-  "specialties": "Pediatrics",
-  "licenseNumber": "VN87654321",
-  "phone": "0912345678",
-  "location": "Ho Chi Minh City"
-},
-{
-  "_id": {
-    "$oid": "682862c6e132e0fc8d003314"
+  {
+    "_id": {
+      "$oid": "682862c6e132e0fc8d003314"
+    },
+    "username": "dr.lehoang",
+    "gender": "Nam",
+    "specialties": "Da liễu",
+    "licenseNumber": "VN45678901",
+    "phone": "0923456789",
+    "location": "Đà Nẵng"
   },
-  "username": "dr.lehoang",
-  "gender": "Male",
-  "specialties": "Dermatology",
-  "licenseNumber": "VN45678901",
-  "phone": "0923456789",
-  "location": "Da Nang"
-},
-{
-  "_id": {
-    "$oid": "682862dae132e0fc8d003315"
+  {
+    "_id": {
+      "$oid": "682862dae132e0fc8d003315"
+    },
+    "username": "dr.phamthuy",
+    "gender": "Nữ",
+    "specialties": "Nội tiết",
+    "licenseNumber": "VN23456789",
+    "phone": "0934567890",
+    "location": "Cần Thơ"
   },
-  "username": "dr.phamthuy",
-  "gender": "Female",
-  "specialties": "Endocrinology",
-  "licenseNumber": "VN23456789",
-  "phone": "0934567890",
-  "location": "Can Tho"
-},
-{
-  "_id": {
-    "$oid": "682862e7e132e0fc8d003316"
-  },
-  "username": "dr.dinhminh",
-  "gender": "Male",
-  "specialties": "Neurology",
-  "licenseNumber": "VN34567890",
-  "phone": "0945678901",
-  "location": "Hai Phong"
-}]
+  {
+    "_id": {
+      "$oid": "682862e7e132e0fc8d003316"
+    },
+    "username": "dr.dinhminh",
+    "gender": "Nam",
+    "specialties": "Thần kinh",
+    "licenseNumber": "VN34567890",
+    "phone": "0945678901",
+    "location": "Hải Phòng"
+  }
+]

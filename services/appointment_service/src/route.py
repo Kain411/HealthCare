@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from controller import get_appointments_controller, get_appointment_by_id_controller, get_appointments_by_doctor_controller, get_appointment_details_by_patient_controller, post_new_appointment_controller
+from controller import get_appointments_controller, get_appointment_by_id_controller, get_appointments_by_doctor_controller, get_appointment_details_by_patient_controller, post_new_appointment_controller, delete_apppointment_controller
 import os
 import requests
 from dotenv import load_dotenv
@@ -116,4 +116,19 @@ def post_new_appointment_route():
         return jsonify({
             "success": False,
             "error": "Error: Insert Error"
+        }), 500
+
+@appointment_bp.route('/deleteAppointment', methods=['DELETE'])
+def delete_appointment_route():
+    data = request.get_json()
+
+    if delete_apppointment_controller(data):
+        return jsonify({
+            "success": True,
+            "message": "Success"
+        }), 200
+    else:
+        return jsonify({
+            "success": False,
+            "error": "Error: Delete Error"
         }), 500

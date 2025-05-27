@@ -4,6 +4,7 @@
     padding-bottom: 50px;
     border-radius: 20px;
     position: relative;
+    width: 60%;
 }
 
 .predict_body {

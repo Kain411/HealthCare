@@ -1,23 +1,30 @@
 import { Outlet, useNavigate } from 'react-router-dom';
 import '../style/Header.css'
-import { useContext, useEffect } from 'react';
-import { PatientContext } from '../../context/PatientContext';
+import { useContext, useEffect, useRef } from 'react';
 import { DoctorContext } from '../../context/DoctorContext';
-import { AppointmentContext } from '../../context/AppointmentContext';
+import { ChatboxContext } from '../../context/ChatboxContext';
+import { UserContext } from '../../context/UserContext';
 
 const Header = () => {
 
     const navigate = useNavigate()
 
-    const { patient, handleGetPatientByUsername } = useContext(PatientContext)
+    const { patient } = useContext(UserContext)
     const { handleGetDoctors } = useContext(DoctorContext)
+    const { addChat, handleGetSymptoms } = useContext(ChatboxContext)
+    const hasInitialized = useRef(false)
 
     useEffect(() => {
         const getInfo = async () => {
-            const resultPatient = await handleGetPatientByUsername("Tzei")
             const resultDoctor = await handleGetDoctors()
+            const resultSymptom = await handleGetSymptoms()
         }
         getInfo()
+        if (!hasInitialized.current) addChat({
+            "type": "Chat",
+            "content": "Xin chào " + patient.username + " !"
+        })
+        hasInitialized.current = true
     }, [])
 
     return (
@@ -43,38 +50,38 @@ const Header = () => {
                 <div className='space_between'>
                     <button 
                         className='button header_button'
-                        onClick={() => navigate('/home')}
-                    >Home
+                        onClick={() => navigate('/main/home')}
+                    >Trang chủ
                     </button>
                     
                     <button 
                         className='button header_button'
-                        onClick={() => navigate('/appointment')}
-                    >Appointment
+                        onClick={() => navigate('/main/appointment')}
+                    >Hẹn khám
                     </button>
 
                     <button 
                         className='button header_button'
-                        onClick={() => navigate('/medical_record')}
-                    >MedicalRecord
+                        onClick={() => navigate('/main/medical_record')}
+                    >Hồ sơ bệnh án
                     </button>
 
                     <button 
                         className='button header_button'
-                        onClick={() => navigate('/prescription')}
-                    >Prescription
+                        onClick={() => navigate('/main/prescription')}
+                    >Đơn thuốc
                     </button>
 
                     <button 
                         className='button header_button'
-                        onClick={() => navigate('/predict')}
-                    >Predict
+                        onClick={() => navigate('/main/tool')}
+                    >Công cụ
                     </button>
 
                     <button 
                         className='button header_button'
-                        onClick={() => navigate('/profile')}
-                    >Profile
+                        onClick={() => navigate('/main/profile')}
+                    >Hồ sơ cá nhân
                     </button>
                 </div>
             </header>

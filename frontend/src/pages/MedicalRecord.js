@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import "./style/MedicalRecord.css"
-import { PatientContext } from "../context/PatientContext";
 import { MedicalRecordContext } from "../context/MedicalRecordContext";
+import { UserContext } from "../context/UserContext";
 
 const MedicalRecordComponent = ({medicalRecord}) => {
     return (
@@ -37,7 +37,7 @@ const MedicalRecordComponent = ({medicalRecord}) => {
 
 const MedicalRecord = () => {
 
-    const { patient } = useContext(PatientContext)
+    const { patient } = useContext(UserContext)
     const { medicalRecords, handleGetMedicalRecordsByPatientID } = useContext(MedicalRecordContext)
 
     useEffect(() => {

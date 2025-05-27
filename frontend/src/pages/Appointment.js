@@ -2,8 +2,8 @@ import { useContext, useEffect } from "react"
 import "./style/Appointment.css"
 import { DoctorContext } from "../context/DoctorContext"
 import { useNavigate } from "react-router-dom"
-import { PatientContext } from "../context/PatientContext"
 import { AppointmentContext } from "../context/AppointmentContext"
+import { UserContext } from "../context/UserContext"
 
 const AppointmentComponent = ({doctor}) => {
 
@@ -15,7 +15,7 @@ const AppointmentComponent = ({doctor}) => {
             onClick={() => navigate('/appointment/details', { state: {"doctor": doctor}})}
         >
             {
-                doctor.gender=="Male" ?
+                doctor.gender=="Nam" ?
                 <img src={require("../assets/doctorMale.png")} className="appointment_doctor_avatar" />
                 : <img src={require("../assets/doctorFemale.png")} className="appointment_doctor_avatar" />
             }
@@ -32,7 +32,7 @@ const AppointmentComponent = ({doctor}) => {
 
 const Appointment = () => {
 
-    const { patient } = useContext(PatientContext)
+    const { patient } = useContext(UserContext)
     const { doctors } = useContext(DoctorContext)
     const { handleGetAppointmentByPatientID } = useContext(AppointmentContext)
 

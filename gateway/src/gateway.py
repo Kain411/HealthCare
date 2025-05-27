@@ -11,6 +11,7 @@ app = Flask(__name__)
 CORS(app, origins=["http://localhost:3000"], supports_credentials=True)
 
 SERVICE_MAP = {
+    "users": os.getenv("USER_SERVICE"),
     "patients": os.getenv("PATIENT_SERVICE"),
     "doctors": os.getenv("DOCTOR_SERVICE"),
     "nurse": os.getenv("NURSE_SERVICE"),
@@ -18,7 +19,8 @@ SERVICE_MAP = {
     "medical_records": os.getenv("MEDICAL_RECORD_SERVICE"),
     "prescriptions": os.getenv("PRESCRIPTION_SERVICE"),
     "medicines": os.getenv("MEDICINE_SERVICE"),
-    "predicts": os.getenv("PREDICT_SERVICE")
+    "predicts": os.getenv("PREDICT_SERVICE"),
+    "chats": os.getenv("CHAT_SERVICE")
 }
 
 @app.route("/<service>", defaults={"path": ""}, methods=["GET", "POST", "PUT", "DELETE", "PATCH"])

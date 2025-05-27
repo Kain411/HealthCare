@@ -44,3 +44,18 @@ def post_new_appointment_controller(data):
         return True
     except Exception as e:
         return False
+    
+def delete_apppointment_controller(data):
+    mongo = current_app.mongo
+    try:
+        result = mongo.db.appointmentDetail.delete_one({
+            "appointmentID": data.get('appointmentID'),
+            "patientID": data.get('patientID')
+        })
+        if result.deleted_count > 0:
+            return True
+        else:
+            return False
+
+    except Exception as e:
+        return False

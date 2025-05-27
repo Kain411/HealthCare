@@ -1,50 +1,52 @@
-[{
-  "_id": {
-    "$oid": "682b4e1526b4907da1fdbae1"
+[
+  {
+    "_id": {
+      "$oid": "682b4e1526b4907da1fdbae1"
+    },
+    "patientID": "68274a2c7561294a0506b04a",
+    "doctorID": "682862a5e132e0fc8d003312",
+    "nurseID": "682b4d3926b4e47da1fdbad1",
+    "note": "Bệnh nhân bị sốt nhẹ và đau họng.",
+    "result": "Kê đơn paracetamol và nghỉ ngơi."
   },
-  "patientID": "68274a2c7561294a0506b04a",
-  "doctorID": "682862a5e132e0fc8d003312",
-  "nurseID": "682b4d3926b4e47da1fdbad1",
-  "note": "Patient has a mild fever and sore throat.",
-  "result": "Prescribed paracetamol and rest."
-},
-{
-  "_id": {
-    "$oid": "682b4e1526b4907da1fdbae2"
+  {
+    "_id": {
+      "$oid": "682b4e1526b4907da1fdbae2"
+    },
+    "patientID": "68274a2c7561294a0506b04a",
+    "doctorID": "682862a5e132e0fc8d003312",
+    "nurseID": "682b4d3926b4e47da1fdbad4",
+    "note": "Phàn nàn đau ngực và mệt mỏi.",
+    "result": "Đã thực hiện điện tâm đồ. Chuyển đến bác sĩ tim mạch."
   },
-  "patientID": "68274a2c7561294a0506b04a",
-  "doctorID": "682862a5e132e0fc8d003312",
-  "nurseID": "682b4d3926b4e47da1fdbad4",
-  "note": "Complains of chest pain and fatigue.",
-  "result": "ECG performed. Referred to cardiologist."
-},
-{
-  "_id": {
-    "$oid": "682b4e1526b4907da1fdbae3"
+  {
+    "_id": {
+      "$oid": "682b4e1526b4907da1fdbae3"
+    },
+    "patientID": "68274a2c7561294a0506b04a",
+    "doctorID": "682862a5e132e0fc8d003312",
+    "nurseID": "682b4d3926b4e47da1fdbad1",
+    "note": "Khám định kỳ. Không có triệu chứng.",
+    "result": "Sức khỏe tốt. Hẹn tái khám sau 6 tháng."
   },
-  "patientID": "68274a2c7561294a0506b04a",
-  "doctorID": "682862a5e132e0fc8d003312",
-  "nurseID": "682b4d3926b4e47da1fdbad1",
-  "note": "Regular check-up. No complaints.",
-  "result": "Healthy. Scheduled next check-up in 6 months."
-},
-{
-  "_id": {
-    "$oid": "682b4e1526b4907da1fdbae4"
+  {
+    "_id": {
+      "$oid": "682b4e1526b4907da1fdbae4"
+    },
+    "patientID": "68274a2c7561294a0506b04a",
+    "doctorID": "682862b4e132e0fc8d003313",
+    "nurseID": "682b4d3926b4e47da1fdbad2",
+    "note": "Bệnh nhân bị cao huyết áp.",
+    "result": "Điều chỉnh liều thuốc. Khuyến nghị chế độ ăn ít muối."
   },
-  "patientID": "68274a2c7561294a0506b04a",
-  "doctorID": "682862b4e132e0fc8d003313",
-  "nurseID": "682b4d3926b4e47da1fdbad2",
-  "note": "Patient has high blood pressure.",
-  "result": "Medication dosage adjusted. Advised low-sodium diet."
-},
-{
-  "_id": {
-    "$oid": "682b4e1526b4907da1fdbae5"
-  },
-  "patientID": "68274a2c7561294a0506b04a",
-  "doctorID": "682862c6e132e0fc8d003314",
-  "nurseID": "682b4d3926b4e47da1fdbad1",
-  "note": "Complains of frequent headaches.",
-  "result": "MRI scheduled. Possible migraine diagnosis."
-}]
+  {
+    "_id": {
+      "$oid": "682b4e1526b4907da1fdbae5"
+    },
+    "patientID": "68274a2c7561294a0506b04a",
+    "doctorID": "682862c6e132e0fc8d003314",
+    "nurseID": "682b4d3926b4e47da1fdbad1",
+    "note": "Phàn nàn bị đau đầu thường xuyên.",
+    "result": "Đã lên lịch chụp MRI. Có thể chẩn đoán đau nửa đầu."
+  }
+]

@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { AppointmentContext } from "../context/AppointmentContext";
-import { PatientContext } from "../context/PatientContext";
+import { UserContext } from "../context/UserContext";
 
 const AppointmentComponent = ({doctor}) => {
 
@@ -10,7 +10,7 @@ const AppointmentComponent = ({doctor}) => {
             className="button appointment_form center_x"
         >
             {
-                doctor.gender=="Male" ?
+                doctor.gender=="Nam" ?
                 <img src={require("../assets/doctorMale.png")} className="appointment_doctor_avatar" />
                 : <img src={require("../assets/doctorFemale.png")} className="appointment_doctor_avatar" />
             }
@@ -28,8 +28,8 @@ const AppointmentComponent = ({doctor}) => {
 
 const AppointmentTime = ({index, info, status}) => {
 
-    const { patient } = useContext(PatientContext)
-    const { handlePostNewAppointment } = useContext(AppointmentContext)
+    const { patient } = useContext(UserContext)
+    const { handlePostNewAppointment, handleDeleteAppointment } = useContext(AppointmentContext)
 
     const [check, setCheck] = useState(status)
 
@@ -41,11 +41,12 @@ const AppointmentTime = ({index, info, status}) => {
         }
 
         if (check) {
-
+            const result = await handleDeleteAppointment(patient.id, data)
+            if (result.success) setCheck(false)
         }
         else {
-            await handlePostNewAppointment(patient.id, data)
-            setCheck(true)
+            const result = await handlePostNewAppointment(patient.id, data)
+            if (result.success) setCheck(true)
         }
     }
 
@@ -62,8 +63,8 @@ const AppointmentTime = ({index, info, status}) => {
                 }
             </button>
             <div className="appointment_time_title">Cuộc hẹn {index<10 ? "0" + index : index}</div>
-            <div className="appointment_time_content">Time: {info.time}</div>
-            <div className="appointment_time_content">Day of the week: {info.day}</div>
+            <div className="appointment_time_content">Thời gian: {info.time}</div>
+            <div className="appointment_time_content">Ngày hẹn: {info.day}</div>
         </div>
     )
 }

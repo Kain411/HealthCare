@@ -1,0 +1,121 @@
+.chatbox_container {
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid #dedede;
+    position: relative;
+}
+
+.chatbox_title {
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 40px;
+    background-color: rgb(53, 213, 245);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.chatbox_main {
+    width: 100%;
+    height: 380px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 380px;
+    overflow-y: auto;
+}
+
+.chatbox_main::-webkit-scrollbar {
+    display: none;
+}
+
+.chat_wrapper_chat {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.chat_wrapper_user {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chat_form_chat, .chat_form_user {
+    display: inline-block;
+    max-width: 40%;
+    background-color: aqua;
+    padding: 8px 12px;
+    border-radius: 20px;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.chatbox_footer {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.chatbox_add_symptom, .chatbox_send {
+    color: #ffffff;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(53, 213, 245);
+}
+
+.chatbox_add_symptom {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.chatbox_input {
+    flex: 1;
+    height: 35px;
+    margin: 0 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #c8c1c1;
+}
+
+.chatbox_send {
+    width: 100px;
+}
+
+.chatbox_symptoms {
+    width: 180px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    right: 130px;
+    bottom: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    padding: 5px 0;
+}
+
+.chatbox_symptom {
+    padding: 5px 10px;
+}
+
+.chatbox_choose_btn {
+    width: 13px;
+    height: 13px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 10px;
+}
+
+.chatbox_choose_symptom {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+}
+
+.chatbox_choose_content {
+    font-size: 15px;
+}
